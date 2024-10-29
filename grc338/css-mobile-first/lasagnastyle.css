@@ -53,13 +53,13 @@ h3 {
 }
 
 ul {
-    padding: 0.5em 2em;
+    padding: 1em 1em 0.5em;
     list-style-type: disc;
     font-family: poppins, sans-serif;
 }
 
 ol {
-    padding: 0.5em 2em 3em;
+    padding: 1em 1em 0.5em;
     list-style-type: decimal;
     font-family: poppins, sans-serif;
 }
