@@ -95,8 +95,8 @@ main.menu ul li {
 		grid-template-columns: auto auto;
 		grid-template-rows: auto auto;
 		font-family: 'bd-caramel-variable', sans-serif;
-		font-variation-settings: "BUBL" 100;
-		font-size: 1.15em;
+		font-variation-settings: "BUBL" 80;
+		font-size: 1em;
 }	
 
 p {
