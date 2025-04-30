@@ -1,0 +1,288 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%;
+    padding-top: 1em;
+    display: block;
+}
+
+nav ul li {
+    margin: 0.5em;
+    list-style-type: none;
+    /* display: inline; */
+}
+
+
+nav ul li a {
+    /* display: inline; */
+    font-weight: bold;
+    color: rgb(92, 119, 150);
+    text-decoration: none;
+    margin: 0.5em;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+h1 {
+   max-width: 10em;
+   padding-bottom: 1em;
+   margin: 0.5em;
+   font-weight: 700;
+}
+
+/* h2 {
+    color: rgb(92, 119, 150); 
+	font-size: 2.5em;
+	font-family: serif;
+    font-weight: 700;
+    margin: 0.5em;
+} 
+
+p {
+    font-size: 1.5em;
+	font-family: serif;
+    font-weight: 300;
+    margin: 0.5em;
+} */
+
+.main-teaser h2 {
+    color: rgb(92, 119, 150); 
+	font-size: 2.5em;
+	font-family: serif;
+    margin: 0.25em;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.main-teaser p {
+    font-size: 1.25em;
+	font-family: sans-serif;
+    margin: 0.5em;
+    text-decoration: none;
+}
+
+.main-teaser a {
+    text-decoration: none;
+}
+
+.main-teaser a p {
+    color: rgb(0, 0, 0)
+}
+
+.secondary-teaser h2{
+    color: rgb(92, 119, 150); 
+	font-size: 2em;
+	font-family: serif;
+    margin: 0.25em;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.secondary-teaser p {
+    font-size: 1.25em;
+	font-family: sans-serif;
+    margin: 0.5em;
+    text-decoration: none;
+}
+
+.tertiary-teaser h2 {
+    color: rgb(92, 119, 150); 
+	font-size: 1.5em;
+	font-family: serif;
+    margin: 0.25em;
+    text-decoration: none;
+    border-top: solid rgb(92, 119, 150);
+    padding-top: .25em;
+    font-weight: 600;
+}
+
+.tertiary-teaser p {
+    font-size: 1em;
+	font-family: sans-serif;
+    margin: 0.5em;
+    text-decoration: none;
+    padding-bottom: 2em;
+}
+
+footer {
+  width: 100%;
+  height: 3rem; 
+  box-sizing: border-box;
+  padding: 1em 1em;
+  font-family: sans-serif;
+  background: rgb(92, 119, 150);
+  color: rgb(255, 255, 255)
+}
+
+.secondary-teaser a,
+.tertiary-teaser a {
+    text-decoration: none;
+    color: rgb(0, 0, 0)
+}
+
+article h2 {
+    color: rgb(92, 119, 150); 
+	font-size: 2.5em;
+	font-family: serif;
+    margin: 0.5em;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+article p {
+    font-size: 1.25em;
+	font-family: sans-serif;
+    margin: 0.5em;
+    padding-bottom: 1.25em;
+}
+
+
+figcaption {
+    color: rgb(137, 138, 140); 
+	font-size: 1em;
+	font-family: sans-serif;
+    margin: 0.5em;
+    font-style: italic;
+    padding-bottom: 2em;
+}
+
+aside h2 {
+    color: rgb(92, 119, 150); 
+	font-size: 1.5em;
+	font-family: serif;
+    margin: 0 0.5em;
+    /* padding-top: 0; */
+    font-weight: 600;
+}
+
+aside p {
+    font-size: 1em;
+	font-family: sans-serif;
+    margin: 0.5em;
+    padding-bottom: 1em;
+} 
+
+aside {
+    background-color: rgb(204, 208, 251); /* purple background */
+    padding: 1em;                         /* space around entire aside */
+    box-sizing: border-box;
+}
+
+
+/* aside img {
+    padding: 0 .5em;
+    max-width: 100%;
+    display: block;
+} */
+
+aside img {
+    /* background-color: rgb(204, 208, 251);  */
+    padding: 0.5em;                         
+    display: block;
+    max-width: 100%;
+    margin: 1em auto;                   
+    box-sizing: border-box;             
+}
+
+footer p {
+    margin: 0em;
+}
+
+figure {
+    padding-top: 1em;
+}
+
+@media screen and (min-width: 60em) {
+	
+	.main-teaser h2, .secondary-teaser h2 {
+        color: rgb(92, 119, 150); 
+        font-size: 2.5em;
+        font-family: serif;
+        margin: 0 auto;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    
+    .main-teaser p, .secondary-teaser p {
+        font-size: 1.25em;
+        font-family: sans-serif;
+        margin: 0 auto;
+        text-decoration: none;
+        padding-bottom: 3em;
+    }
+
+    .tertiary-teaser h2 {
+        font-size: 1.5em;
+        font-family: serif;
+        margin: 0 auto;
+        text-decoration: none;
+    }
+
+    .tertiary-teaser p {
+        font-size: 1em;
+        font-family: sans-serif;
+        margin: 0 auto;
+        text-decoration: none;
+    }
+	nav ul li a {
+		display: inline;
+		font-size: 1.5em;
+        margin: 0 auto;
+        list-style-type: none;
+    }
+
+    div.container {
+        max-width: 60em;
+        margin: 0 auto;
+        padding: 1em;
+    }
+
+    article h2 {
+        color: rgb(92, 119, 150); 
+        font-size: 2.5em;
+        font-family: serif;
+        margin: 0 auto;
+        font-weight: 600;
+    }
+
+    article p {
+        font-size: 1.25em;
+        font-family: sans-serif;
+        margin: 0 auto;
+        padding-bottom: 1.25em;
+    }
+
+    figcaption {
+        color: rgb(137, 138, 140); 
+        font-size: 1em;
+        font-family: sans-serif;
+        margin: 0 auto;
+        font-style: italic;
+        padding-top: 1em;
+    }
+
+    figure {
+        padding-top: 1em;
+    }
+    
+    aside {
+        margin: auto;
+    }
+
+    nav ul li {
+        font-weight: bold;
+        color: rgb(92, 119, 150);
+        text-decoration: none;
+        margin: 0em;
+        padding-right: 1.5em;
+        font-size: 1.25em;
+        font-family: sans-serif;
+        display: inline;
+    }
+
+    .main-teaser a {
+        text-decoration: none;
+    }
+}
