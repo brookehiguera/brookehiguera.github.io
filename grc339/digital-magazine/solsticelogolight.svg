@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440.87 139.14">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 150px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #231f20;
+        font-family: BodoniSvtyTwoITCTT-Bold, 'Bodoni 72';
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        font-size: 26px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer_1">
+    <g class="cls-2">
+      <text class="cls-1" transform="translate(-4.8 112.55)"><tspan x="0" y="0">solstice</tspan></text>
+    </g>
+    <g class="cls-2">
+      <text class="cls-3" transform="translate(303.11 132.38)"><tspan x="0" y="0">magazine co.</tspan></text>
+    </g>
+  </g>
+</svg>
